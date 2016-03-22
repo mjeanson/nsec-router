@@ -1,3 +1,4 @@
+```
 git clone https://github.com/mjeanson/nsec-router.git
 wget https://buildroot.org/downloads/buildroot-2016.02.tar.bz2
 tar xvf buildroot-2016.02.tar.bz2
@@ -17,3 +18,4 @@ EOF
 tar -cf metadata.tar metadata.yaml
 
 lxc image import metadata.tar output/images/rootfs.tar --alias nsec-router
+```
